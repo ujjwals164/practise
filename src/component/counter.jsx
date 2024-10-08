@@ -23,6 +23,7 @@ function counter() {
             {/* //welcome to my counter */}
             {/* {welcome} */}
             {/* {welcome} */}
+            <p>welcome to my profile</p>
             <button onClick={clickInsc}>high</button>
 
       </div>
