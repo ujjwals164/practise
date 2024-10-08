@@ -28,6 +28,7 @@ function counter() {
             <p>welcome to home</p>
             <p>its hard question</p>
             <button>syubmit</button>
+            <button>rrrr</button>
             
             <button onClick={clickInsc}>high</button>
 
