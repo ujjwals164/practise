@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
 
 function counter() {
-
-    const [counter , setCounter] = useState(4)
-
+    const initialvalue = 4
+    const [counter , setCounter] = useState(initialvalue)
+    
      const clickDesc = ()=>{
-       const update = counter - 1;
-       setCounter(update)
+       if(counter > initialvalue){
+        setCounter(counter-1)
+       }
      }
 
      const clickInsc = ()=>{
@@ -16,8 +17,10 @@ function counter() {
   return (
     <>
       <div>
-            <button onClick={clickDesc}>low</button>
-            <p>{counter}</p>
+            <button onClick={clickDesc} >low</button>
+            
+            <input type="text" min={counter} value={counter}/>
+            {/* //welcome to my counter */}
             <button onClick={clickInsc}>high</button>
 
       </div>
