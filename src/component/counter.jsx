@@ -25,6 +25,7 @@ function counter() {
             {/* {welcome} */}
             <p>welcome to my profile</p>
             <p>welcome to the destination</p>
+            <p>welcome to home</p>
             <button onClick={clickInsc}>high</button>
 
       </div>
