@@ -20,13 +20,7 @@ function counter() {
             <button onClick={clickDesc} >low</button>
             
             <input type="text" min={counter} value={counter}/>
-            {/* //welcome to my counter */}
-            {/* {welcome} */}
-            {/* {welcome} */}
-            <p>welcome to my profile</p>
-            <p>welcome to the destination</p>
-            <p>welcome to home</p>
-            <p>its hard question</p>
+           
             <button onClick={clickInsc}>high</button>
 
       </div>
