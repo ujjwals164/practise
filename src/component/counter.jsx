@@ -25,8 +25,8 @@ function counter() {
             <button>click on</button>
             <button>click up</button>
             <button>click down</button>
-            <button>click forward</button>
             
+            <button>click forward</button>
 
       </div>
     </>
