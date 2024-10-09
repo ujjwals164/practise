@@ -14,15 +14,19 @@ function counter() {
       const update = counter + 1;
       setCounter(update)
      }
-  return (
+return (
     <>
       <div>
             <button onClick={clickDesc} >low</button>
             
             <input type="text" min={counter} value={counter}/>
-            {/* //welcome to my counter */}
-            {/* {welcome} */}
+           
             <button onClick={clickInsc}>high</button>
+            <button>click on</button>
+            <button>click up</button>
+            <button>click down</button>
+            <button>select me </button>
+            <button>click forward</button>
 
       </div>
     </>
