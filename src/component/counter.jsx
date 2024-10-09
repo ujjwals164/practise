@@ -23,6 +23,8 @@ function counter() {
            
             <button onClick={clickInsc}>high</button>
             <button>click on</button>
+            <button>click up</button>
+            
 
       </div>
     </>
