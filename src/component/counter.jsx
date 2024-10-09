@@ -22,6 +22,7 @@ function counter() {
             <input type="text" min={counter} value={counter}/>
            
             <button onClick={clickInsc}>high</button>
+            <button>click on</button>
 
       </div>
     </>
